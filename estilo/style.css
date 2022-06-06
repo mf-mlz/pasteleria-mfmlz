@@ -1,0 +1,28 @@
+.col{
+    border: solid 1px white;
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    height: 80px;
+}
+
+.col-3{
+    border: solid 1px white;
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    height: 80px;
+}
+
+.col-md-6{
+    border: solid 1px white;
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    height: 80px;
+}
+
+h1{
+    text-align: center;
+}
+

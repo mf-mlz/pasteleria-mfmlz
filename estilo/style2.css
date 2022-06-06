@@ -1,0 +1,67 @@
+footer{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.col{
+    color:white;
+    height: 50px;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
+
+main #carrousel img{
+max-height: 70vh;
+/* Quitar lo alargado de la imagen */
+object-fit: cover; 
+/* filtro gris */
+filter: grayscale(40%);
+}
+
+#carrousel {
+    position: relative;
+}
+
+#carrousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carrousel .overlay .container,
+#carrousel .overlay .row{
+height: 100%;
+}
+
+.btn-success{
+    background-color: #C850C0 !important;
+}
+
+.btn-success:hover{
+    background-color: #9c3c96 !important; 
+}
+
+.btn-outline-light:hover{
+    background-color: #C850C0 !important;
+    color: white;
+}
+
+.donas .col{
+  color: black !important; 
+  
+}
+
+#sucursales .col{
+    color: black !important; 
+ 
+  }
+
+  #sucursales img{
+      max-width: 100%;
+  }
